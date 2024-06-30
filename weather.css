@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  /*   box-sizing: border-box; */
+}
+
+body{
+    background: url("https://i.pinimg.com/originals/f2/fc/67/f2fc67b34ce2fd95b72c8b394ebc5b98.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.card{
+    width: 90%;
+    max-width: 470px;
+    background-color: rgba(0, 0, 0, 0.384);
+    color: #fff;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    height: 100%;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow: 2px 2px 10px white;
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search input{
+    background-color: #00000099;
+    color: whitesmoke;
+    padding: 10px 25px;
+    height: 50px;
+    border-radius: 38px;
+    margin-right: 16px;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    flex: 1;
+}
+
+.search input::placeholder{
+  color: #fff;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background-color: #00000099; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button i{
+    font-size: 16px;
+    color: white;
+}
+
+
+h1{
+    margin: 20px 0 0 20px;
+    font-size: 80px;
+    font-weight: 500;
+    /* background: linear-gradient(rgba(245, 235, 235, 0.728),rgba(187, 232, 226, 0.861));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: white;
+}
+
+ h2{
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,.wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.error{
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+}
+
+.temp-icon i{
+    color: white;
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
+.weather-type{
+    margin: 2rem;
+    font-size: 1.5rem;
+    /* color: white; */
+}
